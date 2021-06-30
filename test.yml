@@ -1,2 +1,4 @@
--  name: "to view /tmp/test.txt file"
-   shell: "cat /tmp/test.txt"
+# Example from Ansible Playbooks
+- copy:
+    src: /etc/passwd
+    dest: /temp/new.txt

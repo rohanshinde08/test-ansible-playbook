@@ -1,0 +1,6 @@
+---
+
+- name: to view /tmp/test.txt file
+  shell: cat /tmp/test.txt
+  args:
+    executable: /bin/bash
